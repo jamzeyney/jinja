@@ -73,11 +73,85 @@
 				border-radius: 5px;
 				cursor: pointer;
 				margin-bottom: 15px;
-				transition: background o.3 ease;
+				transition: background 0.3 ease;
 			}
 
 			button:hover {
-				background-color: #2ecc;
+				background-color: #2ecc71;
+			}
+
+			a {
+				display: inline-block;
+				margin: 10px 0;
+				color: #2980b9;
+				text-decoration: none;
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+
+			img {
+				max-width: 100%;
+				height: auto;
+				border-radius: 10px;
+				margin: 15px 0;
+			}
+
+			p,
+			blockquote,
+			address {
+				margin: 10px 0;
+			}
+
+			blockquote {
+				font-style: italic;
+				color: #555;
+				border-left: 4px solid #27ae60;
+				padding-left: 10px;
+				margin: 20px 0;
+				background: #f9f9f9;
+				border-radius: 5px;
+			}
+
+			address {
+				font-style: normal;
+				line-height: 1.5;
+				background: #f1f1f1;
+				padding: 10px;
+				border-radius: 5px;
+			}
+
+			.highlight {
+				background-color: chartreuse;
+				padding: 2px 5px;
+				border-radius: 3px;
+			}
+
+			.primary-red {
+				color: red;
+			}
+
+			cite {
+				font-weight: 700;
+			}
+
+			bdo {
+				display: block;
+				text-align: right;
+				margin-top: 20px;
+				font-size: 1.2rem;
+				color: #e67e22;
+			}
+
+			@media (max-width: 600px) {
+				header h1 {
+					font-size: 2rem;
+				}
+
+				button {
+					width: 100%;
+				}
 			}
 		</style>
 		<meta charset="UTF-8" />
